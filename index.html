@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/reset-styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Solar/Доска объявлений 2023</title>
+  </head>
+
+  <body>
+    <div class="header-top">
+      <div class="container">
+        <nav class="navbar">
+          <div class="login">
+            <div class="nav_login_icon">
+              <img src="/icon/person.svg" alt="LogIn" />
+            </div>
+
+            <div class="nav_login_btn">
+              <a class="nav-link" href="login.hmtl">Войти</a>
+            </div>
+          </div>
+
+          <button id="btn_new-ad" href="new-ad.html">
+            Новое объявление
+            <img
+              src="/icon/plus.svg"
+              alt="new-ad"
+              style="height: 10; width: 10; color: white"
+            />
+          </button>
+        </nav>
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container head-bottom">
+        <div class="h3">Доска объявлений</div>
+        <div class="Categories_search">
+          <div class="Categories_dropdown">
+            <button class="dropbtn">
+              <img
+                src="/icon/list-nested.svg"
+                alt=""
+                style="height: 20px; width: 20px; color: #3b82f6"
+              />
+              <a class="All_categories" href="#"> Все категории</a>
+            </button>
+
+            <div id="menyDropdown" class="dropdown-content">
+              <a href="#">Животные</a>
+              <a href="#">Хобби и отдых</a>
+              <a href="#">Для дома и дачи</a>
+              <a href="#">Личные вещи</a>
+              <a href="#">Услуги</a>
+              <a href="#">Недвижимость</a>
+              <a href="#">Электроника</a>
+            </div>
+          </div>
+
+          <div class="Search">
+            <form class="input_search" action="" method="get">
+              <input
+                class="input_search_text"
+                placeholder="Поиск по объявлениям"
+                type="search"
+              />
+            </form>
+            <button class="btn_search" type="submit">
+              <a class="btn_search_text">Найти</a>
+              <img
+                src="/icon/search.svg"
+                alt=""
+                style="height: 16px; width: 16px; color: #fff"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <p class="Recommend">Рекомендации для вас</p>
+        <!--Карточки товаров-->
+        <div class="cards">
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/1.jpeg"
+                  alt="Samsung galaxy a5"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title">Samsung galaxy a5</a>
+              <div class="card_price">4 200 ₽</div>
+              <div class="card_place">Севастополь, пл. Нахимова</div>
+              <div class="card_date">Сегодня 18:35</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/2.jpeg"
+                  alt="Игровой пк RTX 4090/ 13900K/ 32gb DDR5 7200MHz"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title"
+                >Игровой пк RTX 4090/ 13900K/ 32gb DDR5 7200MHz</a
+              >
+              <div class="card_price">304 354 ₽</div>
+              <div class="card_place">Севастополь, Фиолентовское ш., 1</div>
+              <div class="card_date">Сегодня 10:53</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/3.jpeg"
+                  alt="Телефон MI 8 litel (4.6+64) 0169/980"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title"
+                >Телефон MI 8 litel (4.6+64) 0169/980</a
+              >
+              <div class="card_price">7 360 ₽</div>
+              <div class="card_place">Севастополь, ул. Щербака, 1/2</div>
+              <div class="card_date">Сегодня 18:39</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/4.jpeg"
+                  alt="Samsung galaxy а51 128"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title">Samsung galaxy а51 128</a>
+              <div class="card_price">11 500 ₽</div>
+              <div class="card_place">Севастополь, СТ Золотая балка</div>
+              <div class="card_date">Сегодня 18:21</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/5.jpeg"
+                  alt="Телевизор Mi tv 65 4k"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title">Телевизор Mi tv 65 4k</a>
+              <div class="card_price">50 000 ₽</div>
+              <div class="card_place">Севастополь, пл. Нахимова</div>
+              <div class="card_date">Сегодня 18:18</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/6.jpeg"
+                  alt="Смартфон Xiaomi Redmi Note 8 6/128GB (белый)"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title"
+                >Смартфон Xiaomi Redmi Note 8 6/128GB (белый)</a
+              >
+              <div class="card_price">10 990 ₽</div>
+              <div class="card_place">Севастополь, ул. Горпищенко, 61</div>
+              <div class="card_date">Сегодня 18:04</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/7.jpeg"
+                  alt="Игровая приставка sony playstation 5 ps5"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title"
+                >Игровая приставка sony playstation 5 ps5</a
+              >
+              <div class="card_price">50 000 ₽</div>
+              <div class="card_place">Севастополь, ул. Маршала Геловани</div>
+              <div class="card_date">Сегодня 15:01</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/8.jpeg"
+                  alt="Адаптер питания EXA1004EH 19V 1.58A 30W 2.5х0.7 мм"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title"
+                >Адаптер питания EXA1004EH 19V 1.58A 30W 2.5х0.7 мм</a
+              >
+              <div class="card_price">900 ₽</div>
+              <div class="card_place">Севастополь, пр-т Генерала Острякова</div>
+              <div class="card_date">Сегодня 18:05</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/9.jpeg"
+                  alt="Колонки для компьютера sven"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title">Колонки для компьютера sven</a>
+              <div class="card_price">2 800 ₽</div>
+              <div class="card_place">Севастополь, ул. Токарева</div>
+              <div class="card_date">Сегодня 17:41</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/10.jpeg"
+                  alt="Автомобильные колонки Pioneer TS-6975V3"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title"
+                >Автомобильные колонки Pioneer TS-6975V3</a
+              >
+              <div class="card_price">4 499 ₽</div>
+              <div class="card_place">
+                Севастополь, пр-т Генерала Острякова, 155
+              </div>
+              <div class="card_date">Сегодня 17:32</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/11.jpeg"
+                  alt="Кулера на корпус"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title">Кулера на корпус</a>
+              <div class="card_price">500 ₽</div>
+              <div class="card_place">Севастополь, Камышовая бухта</div>
+              <div class="card_date">Вчера 14:45</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/12.jpeg"
+                  alt="Видеокарта 2 gb"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title">Видеокарта 2 gb</a>
+              <div class="card_price">2 000 ₽</div>
+              <div class="card_place">Севастополь, пл. Нахимова</div>
+              <div class="card_date">Сегодня 16:26</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/13.jpeg"
+                  alt="Смартфон Honor 8X 4/64Gb"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title">Смартфон Honor 8X 4/64Gb</a>
+              <div class="card_price">5 920 ₽</div>
+              <div class="card_place">Севастополь, пл. Генерала Захарова</div>
+              <div class="card_date">Сегодня 17:51</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/14.jpeg"
+                  alt="iPhone 12 64gb Blue"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title">iPhone 12 64gb Blue</a>
+              <div class="card_price">42 900 ₽</div>
+              <div class="card_place">
+                Севастополь, пр-т Генерала Острякова, 64
+              </div>
+              <div class="card_date">Сегодня 17:58</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/15.jpeg"
+                  alt="HP Compaq 625 (XN852EA)"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title">HP Compaq 625 (XN852EA)</a>
+              <div class="card_price">5 000 ₽</div>
+              <div class="card_place">Севастополь, пр-т Генерала Острякова</div>
+              <div class="card_date">Сегодня 18:05</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <a href="#" class="card_img">
+                <img
+                  class="item_img"
+                  src="/img/16.jpeg"
+                  alt="Яндекс.Станция Мини Плюс - yndx-00020"
+                />
+              </a>
+            </div>
+            <div class="card_bottom">
+              <a href="#" class="card_title"
+                >Яндекс.Станция Мини Плюс - yndx-00020</a
+              >
+              <div class="card_price">4 499 ₽</div>
+              <div class="card_place">
+                Севастополь, пр-т Октябрьской Революции, 57
+              </div>
+              <div class="card_date">Сегодня 14:24</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
